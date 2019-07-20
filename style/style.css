@@ -1,0 +1,66 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    padding: 50px 50px;
+    background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
+}
+
+/*DIV NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    }
+
+.main-title {
+    display: flex;
+    justify-content: space-around;
+}
+.greetings {
+    padding: 50px;
+    color: white;
+}
+
+span{
+    color: aqua;
+}
+
+.logo-pic {
+    display: flex;
+    width: 90px;
+    height: 90px;
+}
+.items {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*DIV MAIN-TITLE*/
+.perfil-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+
+}
+
+.h1 {
+
+}
+
+/*DIV DESCRICAO*/
+.descricao {
+    padding: 50px 200px;
+    display: flex;
+    color: white;
+}
+
+
+/*FIM DO HEADER*/
