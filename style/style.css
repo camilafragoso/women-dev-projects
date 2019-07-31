@@ -77,9 +77,7 @@ items:hover {color: white;}
 
 }
 
-.h1 {
 
-}
 
 /*DIV DESCRICAO*/
 .descricao {
@@ -98,6 +96,7 @@ items:hover {color: white;}
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 7%;
 }
 
 .projects-title {
@@ -179,4 +178,44 @@ items:hover {color: white;}
     margin-right: 5%;
     font-size: 14px;
     text-align: justify;
+}
+
+/*SECTION CONTACTS */
+
+.contact {
+    background: linear-gradient(180deg, #46BEB2 0%, #3A7C95 100%);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.heading-title {
+    padding-left: 44%;
+    padding-top: 50px;
+    color: white;
+    font-size: 36px;
+}
+
+.contact-description {
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 0%;
+    text-align: center;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    color: white;
+}
+
+.footer {
+    background: rgba(62, 59, 59, 0.88);
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    
 }
