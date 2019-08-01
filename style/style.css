@@ -215,7 +215,34 @@ items:hover {color: white;}
 .footer {
     background: rgba(62, 59, 59, 0.88);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 85px;
-    
+    align-items: center;
+}
+
+.github {
+    margin-left: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+
+.twitter {
+    width: 30px;
+    height: 30px;
+}
+
+.linkedin {
+    width: 30px;
+    height: 30px;
+}
+
+.dribble {
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
 }
